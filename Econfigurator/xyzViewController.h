@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface xyzViewController : UIViewController
+@interface xyzViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+
+@property NSArray *pickerArray;
 
 @end

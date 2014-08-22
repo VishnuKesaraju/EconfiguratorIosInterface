@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC6F12C19A235490023FF93 /* xyzConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6F12B19A235490023FF93 /* xyzConfigViewController.m */; };
 		3FFAC3BA199BEF03003EB48B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFAC3B9199BEF03003EB48B /* Foundation.framework */; };
 		3FFAC3BC199BEF03003EB48B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFAC3BB199BEF03003EB48B /* CoreGraphics.framework */; };
 		3FFAC3BE199BEF03003EB48B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFAC3BD199BEF03003EB48B /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		3FFAC3DB199BEF03003EB48B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFAC3BD199BEF03003EB48B /* UIKit.framework */; };
 		3FFAC3E3199BEF03003EB48B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FFAC3E1199BEF03003EB48B /* InfoPlist.strings */; };
 		3FFAC3E5199BEF03003EB48B /* EconfiguratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAC3E4199BEF03003EB48B /* EconfiguratorTests.m */; };
+		3FFAC3EF199BF0B0003EB48B /* parkerlogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFAC3EE199BF0B0003EB48B /* parkerlogo.jpeg */; };
+		3FFAC3F1199BF378003EB48B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFAC3F0199BF378003EB48B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FC6F12A19A235490023FF93 /* xyzConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xyzConfigViewController.h; sourceTree = "<group>"; };
+		3FC6F12B19A235490023FF93 /* xyzConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xyzConfigViewController.m; sourceTree = "<group>"; };
 		3FFAC3B6199BEF03003EB48B /* Econfigurator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Econfigurator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFAC3B9199BEF03003EB48B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FFAC3BB199BEF03003EB48B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		3FFAC3E0199BEF03003EB48B /* EconfiguratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EconfiguratorTests-Info.plist"; sourceTree = "<group>"; };
 		3FFAC3E2199BEF03003EB48B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FFAC3E4199BEF03003EB48B /* EconfiguratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EconfiguratorTests.m; sourceTree = "<group>"; };
+		3FFAC3EE199BF0B0003EB48B /* parkerlogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parkerlogo.jpeg; sourceTree = "<group>"; };
+		3FFAC3F0199BF378003EB48B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFAC3F1199BF378003EB48B /* QuartzCore.framework in Frameworks */,
 				3FFAC3BC199BEF03003EB48B /* CoreGraphics.framework in Frameworks */,
 				3FFAC3BE199BEF03003EB48B /* UIKit.framework in Frameworks */,
 				3FFAC3BA199BEF03003EB48B /* Foundation.framework in Frameworks */,
@@ -82,6 +90,7 @@
 		3FFAC3AD199BEF03003EB48B = {
 			isa = PBXGroup;
 			children = (
+				3FFAC3CB199BEF03003EB48B /* Main.storyboard */,
 				3FFAC3BF199BEF03003EB48B /* Econfigurator */,
 				3FFAC3DE199BEF03003EB48B /* EconfiguratorTests */,
 				3FFAC3B8199BEF03003EB48B /* Frameworks */,
@@ -101,6 +110,7 @@
 		3FFAC3B8199BEF03003EB48B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FFAC3F0199BF378003EB48B /* QuartzCore.framework */,
 				3FFAC3B9199BEF03003EB48B /* Foundation.framework */,
 				3FFAC3BB199BEF03003EB48B /* CoreGraphics.framework */,
 				3FFAC3BD199BEF03003EB48B /* UIKit.framework */,
@@ -112,11 +122,11 @@
 		3FFAC3BF199BEF03003EB48B /* Econfigurator */ = {
 			isa = PBXGroup;
 			children = (
-				3FFAC3C8199BEF03003EB48B /* xyzAppDelegate.h */,
-				3FFAC3C9199BEF03003EB48B /* xyzAppDelegate.m */,
-				3FFAC3CB199BEF03003EB48B /* Main.storyboard */,
 				3FFAC3CE199BEF03003EB48B /* xyzViewController.h */,
 				3FFAC3CF199BEF03003EB48B /* xyzViewController.m */,
+				3FC6F12A19A235490023FF93 /* xyzConfigViewController.h */,
+				3FC6F12B19A235490023FF93 /* xyzConfigViewController.m */,
+				3FFAC3EE199BF0B0003EB48B /* parkerlogo.jpeg */,
 				3FFAC3D1199BEF03003EB48B /* Images.xcassets */,
 				3FFAC3C0199BEF03003EB48B /* Supporting Files */,
 			);
@@ -126,6 +136,8 @@
 		3FFAC3C0199BEF03003EB48B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FFAC3C9199BEF03003EB48B /* xyzAppDelegate.m */,
+				3FFAC3C8199BEF03003EB48B /* xyzAppDelegate.h */,
 				3FFAC3C1199BEF03003EB48B /* Econfigurator-Info.plist */,
 				3FFAC3C2199BEF03003EB48B /* InfoPlist.strings */,
 				3FFAC3C5199BEF03003EB48B /* main.m */,
@@ -230,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFAC3D2199BEF03003EB48B /* Images.xcassets in Resources */,
+				3FFAC3EF199BF0B0003EB48B /* parkerlogo.jpeg in Resources */,
 				3FFAC3C4199BEF03003EB48B /* InfoPlist.strings in Resources */,
 				3FFAC3CD199BEF03003EB48B /* Main.storyboard in Resources */,
 			);
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC6F12C19A235490023FF93 /* xyzConfigViewController.m in Sources */,
 				3FFAC3D0199BEF03003EB48B /* xyzViewController.m in Sources */,
 				3FFAC3CA199BEF03003EB48B /* xyzAppDelegate.m in Sources */,
 				3FFAC3C6199BEF03003EB48B /* main.m in Sources */,
@@ -289,6 +303,7 @@
 				3FFAC3CC199BEF03003EB48B /* Base */,
 			);
 			name = Main.storyboard;
+			path = Econfigurator;
 			sourceTree = "<group>";
 		};
 		3FFAC3E1199BEF03003EB48B /* InfoPlist.strings */ = {
@@ -459,6 +474,7 @@
 				3FFAC3EA199BEF03003EB48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFAC3EB199BEF03003EB48B /* Build configuration list for PBXNativeTarget "EconfiguratorTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +483,7 @@
 				3FFAC3ED199BEF03003EB48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
